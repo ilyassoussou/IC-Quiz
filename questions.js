@@ -55,4 +55,36 @@ let questions = [
             "Compression",
         ]
     },
-]
+     {
+        numb: 6,
+        question: "Which company produces the luxury brand "Lexus"?",
+        answer: "Toyota",
+        options: [
+             "Mercedes-Benz",
+             "BMW",
+             "Toyota",
+             "Audi",
+        ]
+    },
+     {
+        numb: 7,
+        question: "Which color is traditionally associated with sports cars?",
+        answer: "Red",
+        options: [
+            "Grey",
+            "Black",
+            "White",
+            "Red",
+        ]
+    },
+     {
+        numb: 8,
+        question: "Which of the following cars holds the record for the highest top speed achieved by a production vehicle as of 2024?",
+        answer: "Koenigsegg Jesko Absolut",
+        options: [
+            "Bugatti Chiron Super Sport 300+",
+            "Koenigsegg Jesko Absolut",
+            "Hennessey Venom F5",
+            "Pagani Huayra Roadster BC",
+        ]
+    },
