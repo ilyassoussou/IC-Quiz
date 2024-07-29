@@ -141,11 +141,11 @@ function showResultBox(){
     quiz_box.classList.remove("activeQuiz");  //show quiz box
     result_box.classList.add("activeResult");  //show result box
     const scoreText = result_box.querySelector(".score_text");
-    if(userScore > 3){
+    if(userScore > 5){
         let scoreTag = '<span>Impressive!! You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
-    else if(userScore > 1){
+    else if(userScore > 2){
         let scoreTag = '<span>and Nice! You got <p>'+ userScore +'</p> out of <p>'+ questions.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
     }
